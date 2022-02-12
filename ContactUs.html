@@ -15,7 +15,9 @@
 <link rel="stylesheet" type="text/css" href="inifity.css"> -->
 
 <link rel="stylesheet" type="text/css" href="style.css">
+
 <link rel="icon" href="Assets/ras.png" type="image/icon type">
+
 <script src="https://kit.fontawesome.com/f15dbb6fba.js" crossorigin="anonymous"></script>
 
 
@@ -31,42 +33,77 @@
     
 </head>
 <body>
+
+ 
+  
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i href="#" class="nav">
    
-  <nav class="navbar  navbar-light " >
-    
-    <a class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </a>
-    <a class="title " >IEEE RAS DSCE<img class="logo" src="Assets/logo3.png"/></a>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item dropdown">
-            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
-              Menu
-            </a>
-            
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
-                <a class="dropdown-item" href="Events.html">Events</a>
-                <a class="dropdown-item" href="ContactUs.html">Contact Us</a>
-           
-               
-              </div>
-          </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Join IEEE</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Join RAS</a>
-          </li>
-     
-      </ul>
+  <div class="one"></div>
+  <div class="two"></div>
+  <div class="three"></div>
+  </i>
+  
+   </a>
+
+   <div class="topnav">
+      <div id="myLinks">
+          <button class="dropdown-btn">More
+              <i class="fas fa-caret-down"></i>
+            </button>
+            <div class="dropdown-container">
+              <a href="Events.html">Events</a>
+              <a href="ContactUs.html">Contact Us</a>
+              
+            </div>
+          
+
+
+
+          <a href="index.html">Home</a>
+          <a href="#about">Join IEEE</a>
+          <a href="#about">Join RAS</a>
+        </div>
+        
+   
       
     </div>
+</div>
+
+
+
+
+
+ 
+  <script>
+
+    
+function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+
    
-  </nav>
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+  </script>
+
+<center><a class="title " >IEEE RAS DSCE<img class="logo" src="Assets/logo3.png"/></a></center> 
 
  
   <div class="icons"><center>
