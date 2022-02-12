@@ -331,7 +331,7 @@
     
     .content .media-icons {
       width: 100%;
-      align-items: center;
+     align-items: center;
      
       position: absolute;
       bottom: -100px;
@@ -341,12 +341,12 @@
     
     .content:hover .media-icons {
       bottom: 0;
-      align-items: center;
+      
     }
     
     .content .media-icons {
       display: inline-block;
-       align-items: center;
+      align-items: center;
     }
     
     .content .media-icons  a {
@@ -446,6 +446,7 @@
   .Footer
   {
       background-image: url("Assets/Drone\ 1.jpg") ;
+      padding-left: 1rem;
       
   }
 .display-4{
@@ -475,6 +476,7 @@
     font-size: 2rem;
     font-family:Georgia, 'Times New Roman', Times, serif;
     position: relative;
+    padding-left: 1rem;
     
 }
 
@@ -656,4 +658,9 @@ border-style: none;
 }
 
 
-
+.arrow
+{
+  color:#FF676D;
+  font-size: 2rem;
+  text-align: right;
+}
