@@ -17,7 +17,8 @@
     margin: top 50px;
   }
 
-html, body
+
+  html, body
 {
      overflow-x: hidden;
 }
@@ -625,7 +626,7 @@ html, body
 
 
 .topnav a:hover {
-  background-color: blue;
+  background-color: white;
   color: black;
 }
 
@@ -649,7 +650,7 @@ border-style: none;
 
 .dropdown-container {
 display: none;
-background-color: blue;
+background-color: white;
 padding-left: 8px;
 width: 20%;
 border-style: none;
