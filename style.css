@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap');
 * {
     box-sizing: border-box;
   }
@@ -126,7 +127,7 @@
 
 .core{
     font-style: bold;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Archivo', sans-serif;
     font-size: 3rem;
     color:dodgerblue;
 }
@@ -457,7 +458,7 @@
   }
 .display-4{
     font-size: 6rem;
-    color: darkblue;
+    color: rgb(0 43 255 / 61%);
 }
 
 .lead{
@@ -480,7 +481,7 @@
 
 .college-text{
     font-size: 2rem;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Archivo', sans-serif;
     position: relative;
     padding-left: 1rem;
     
