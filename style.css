@@ -543,3 +543,117 @@
     transform: translateY(-2rem);
     color: crimson;
 }
+
+
+
+
+
+
+
+
+
+
+
+.nav div {
+  height: 4px;
+  background-color: black;
+  margin: 5px 0;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+.nav {
+  width: 30px;
+  display: block;
+  margin: 1em 0 0 1em;
+  
+}
+.one {
+  width: 30px;
+}
+.two {
+  width: 20px;
+}
+.three {
+  width: 25px;
+}
+
+.nav:hover div {
+  width: 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: none;
+  position: relative;
+  
+}
+
+
+.topnav #myLinks {
+  display: none;
+  
+}
+
+
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display:list-item;
+  width: 46%;
+}
+
+
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+
+.topnav a:hover {
+  background-color: blue;
+  color: black;
+}
+
+
+.dropdown-btn {
+
+text-decoration: none;
+font-size: 20px;
+color: black;
+display: block;
+
+background: none;
+width: 20%;
+text-align: left;
+cursor: pointer;
+outline: none;
+
+border-style: none;
+}
+
+
+.dropdown-container {
+display: none;
+background-color: blue;
+padding-left: 8px;
+width: 20%;
+border-style: none;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+float: left;
+padding-right: 8px;
+border-style: none;
+}
+
+
+
